@@ -1,5 +1,12 @@
 # AC Temperature Control Card
 
+## Neutral mobile preview
+
+![Neutral mobile preview of ac-temperature-control-card](docs/preview.png)
+
+> Rendered at 390 px mobile width with fictional Home Assistant entities and values. No private dashboard, person, address, camera, or sensor data is included.
+
+
 Optimistisk temperaturstyring til et `climate`-kort: UI'et opdaterer sig selv med det samme når du trækker/klikker, og sender først den faktiske `climate.set_temperature`-kommando når du slipper — så det ikke spammer state-ændringer eller føles forsinket, mens Home Assistant venter på enhedens svar.
 
 ```yaml
